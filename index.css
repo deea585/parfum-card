@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.split-card {
+  display: flex;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image-part,
+.text-part {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text-part {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  padding: 20px;
+}
+
+button {
+  background-color: #06583b;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.prices {
+  color: #06583b;
+  padding: 15px;
+  text-align: center;
+  width: 100px;
+  height: 10 px;
+  font-weight: bold;
+}
+p {
+  flex-grow: 1; /* Asta face paragraful să ocupe spațiul disponibil, să fie amplasat în partea de jos. */
+}
